@@ -8,11 +8,15 @@ function Footer() {
     <footer className="footer">
       <div className="footer-section">
         <div className="footer-column">
-          <img
-            src="/assets/logo.png"
-            alt="Company Logo"
-            className="footer-logo"
-          />
+          <Link to={"/"}>
+            {" "}
+            <img
+              src="/assets/logo.png"
+              alt="Company Logo"
+              className="footer-logo"
+            />
+          </Link>
+
           <p className="footer-description">
             Our mission is to uplift smallholder farmers and micro-enterprises
             by providing accessible and affordable financial solutions tailored
@@ -22,33 +26,33 @@ function Footer() {
           </p>
         </div>
         <div className="footer-column" id="quick-links">
-
           <ul className="footer-nav">
             <li>
-              <Link>Home</Link>
+              <Link to={"/"}>Home</Link>
             </li>
             <li>
-              <Link>About Us</Link>
+              <Link to={"/about-us"}>About Us</Link>
             </li>
             <li>
-              <Link>Products</Link>
+              <Link to={"client-profile"}>Client Profile</Link>
             </li>
             <li>
-              <Link>Contact</Link>
+              <Link to={"contact-us"}>Contact Us</Link>
             </li>
           </ul>
         </div>
         <div className="footer-column">
           <div className="footer-contact">
             <p>Contact us:</p>
-            <p>Email: info@example.com</p>
-            <p>Phone: +1234567890</p>
+            <a href="mailto:info@example.com">Email: info@example.com</a>
+            <br />
+            <a type="tel" href="+2547123456789">Phone: +1234567890</a>
           </div>
           <div className="footer-social">
-            <FaFacebook />
-            <FaTwitter />
-            <FaInstagram />
-            <FaLinkedin />
+            <FaFacebook className="social-icon" />
+            <FaTwitter className="social-icon" />
+            <FaInstagram className="social-icon" />
+            <FaLinkedin className="social-icon" />
           </div>
         </div>
       </div>

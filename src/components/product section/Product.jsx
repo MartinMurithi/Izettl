@@ -5,7 +5,7 @@ function Product() {
   return (
     <div className="products-parent-section">
       <h2 className="our-products-title">Our Products</h2>
-      <p className="products-intro">
+      {/* <p className="products-intro">
         At Izettl, we are committed to ensuring accessibility for all our
         clients, regardless of their location or financial status. Our services
         are available through mobile money platforms, allowing clients to easily
@@ -13,12 +13,12 @@ function Product() {
         Additionally, our digital platform is designed to be user-friendly and
         interoperable, facilitating service delivery for marginalized
         individuals and communities.
-      </p>
+      </p> */}
       <div className="products-section">
         {/* Product one */}
         <div className="product-one">
           <div className="product-image">
-            <img src="/assets/about-image.jpg" alt="Mbessa Product Image" />
+            <img src="/assets/about-image.jpg" alt="Mbessa Product" />
           </div>
           <div className="product-description-parent">
             <h4 className="product-name-one">MBESSA </h4>
@@ -38,7 +38,7 @@ function Product() {
         {/* Product two */}
         <div className="product-two">
           <div className="product-image">
-            <img src="/assets/product-two.jpg" alt="Mbessa Product Image" />
+            <img src="/assets/product-two.jpg" alt="KuzaMo Product" />
           </div>
           <div className="product-description-parent">
             <h4 className="product-name-two">KuzaMO </h4>

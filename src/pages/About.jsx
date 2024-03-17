@@ -1,3 +1,25 @@
+import React from 'react'
+import NavBar from '../components/navbar/NavBar';
+import AboutUsHeader from '../components/about us header/AboutUsHeader';
+import Values from '../components/our values/Values';
+import Challenge from '../components/challenge and impact/Challenge';
+import Footer from "../components/footer/Footer";
+
+function About() {
+  return (
+    <div>
+      <NavBar />
+      <AboutUsHeader />
+      <Values />
+      <Challenge />
+      <Footer />
+    </div>
+  )
+}
+
+export default About
+
+
 // Company Overview:
 
 // Detailed Description: Provide an in-depth overview of the company's mission, vision, and values:

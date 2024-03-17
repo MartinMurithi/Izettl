@@ -4,11 +4,7 @@
 // "The global financial inclusion gap remains a significant challenge, with millions of individuals and businesses lacking access to formal financial services. According to recent data, over 1.7 billion adults worldwide remain unbanked, with the majority residing in developing countries. In regions such as Africa, the financial inclusion gap is particularly pronounced, with only a small percentage of the population having access to basic financial services. These statistics highlight the urgent need for solutions to address this gap and empower underserved populations."
 // Success Stories:
 
-// Showcase Success Stories:
-// "At Izettl, we take pride in the impact our products have on the lives of our clients. Here are some success stories of individuals and businesses that have benefited from our services:
-// [Client Name]: A smallholder farmer who used KUZA MO to purchase seeds and fertilizer, resulting in a significant increase in crop yields and income.
-// [Business Name]: A micro-business owner who utilized MBESSA to expand her business, leading to higher profits and improved livelihoods for her family.
-// These success stories illustrate the transformative power of access to affordable and accessible financial services."
+
 // Women Empowerment:
 
 // Highlight Efforts to Empower Women:
@@ -16,4 +12,5 @@
 // Call-to-Action:
 
 // Encourage Visitors to Support the Mission:
+
 // "Join us in our mission to enhance financial inclusion and empower underserved populations. Whether you're a potential client, partner, or advocate, there are many ways you can support our efforts. Explore our products, share your success stories, or reach out to learn more about how you can get involved. Together, we can make a meaningful impact and unlock prosperity for all."

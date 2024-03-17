@@ -1,0 +1,59 @@
+.challenge-impact-section {
+  width: 90%;
+  margin: 60px auto 0 auto;
+}
+
+.challenge-section,
+.impact-section {
+  text-align: center;
+  width: 70%;
+  margin: 40px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.challenge-title,
+.impact-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+}
+
+.challenge-title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #ad77ff;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.impact-title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #ad77ff;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.challenge-text,
+.impact-text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 30px;
+  margin: 15px 0 50px 0;
+}

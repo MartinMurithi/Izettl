@@ -10,7 +10,7 @@ function AboutSection() {
           <div className="about-us-image-parent">
             <img
               src="/assets/about-image.jpg"
-              alt="About Image"
+              alt="About"
               loading="lazy"
               className="about-us-image"
             />
@@ -19,12 +19,7 @@ function AboutSection() {
             <h2 className="about-title">About Us</h2>
             <p className="about-description">
               Welcome to Izettl - where financial inclusion meets empowerment.
-              Our mission is to uplift smallholder farmers and micro-enterprises
-              by providing accessible and affordable financial solutions
-              tailored to their needs. Through innovative digital banking
-              services and a commitment to customer success, we strive to unlock
-              prosperity and drive sustainable growth. Discover more about our
-              journey and impact below.
+              At Izettl, our mission is to enhance financial inclusion by providing affordable and accessible financial products and services to smallholder farmers and micro-businesses. We envision becoming the preferred financial partner for these underserved populations in Africa and beyond. Our values - Growth, Reliability, Opportunities, Wealth creation, Teamwork, and Humane business practices - guide everything we do.
             </p>
             <Link to="/about-us" className="read-more-btn">
               Read More
