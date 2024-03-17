@@ -13,7 +13,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #4d0aa4;
   line-height: 50px;
   position: relative;
@@ -31,6 +31,14 @@
   bottom: -7px;
   left: 20%;
   transform: translateX(50%);
+}
+
+.products-intro {
+  width: 70%;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  text-align: center;
 }
 
 .products-section {
@@ -68,7 +76,6 @@
   font-style: normal;
   font-size: 1.2rem;
   line-height: 15px;
-
 }
 
 .product-name-one {

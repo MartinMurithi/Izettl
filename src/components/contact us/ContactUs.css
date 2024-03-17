@@ -1,0 +1,78 @@
+.get-in-touch-parent-section {
+  width: 100%;
+  margin: 70px 0;
+}
+
+.get-in-touch-section {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.get-in-touch-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2.5rem;
+  color: #4d0aa4;
+  line-height: 50px;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.get-in-touch-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #4d0aa4;
+  position: absolute;
+  bottom: -7px;
+  left: 20%;
+  transform: translateX(50%);
+}
+
+.get-in-touch-description {
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  text-align: center;
+}
+
+.get-in-touch-cta {
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.phone-icon {
+  color: #4d0aa4;
+  font-size: 2.5rem;
+}
+
+.mobile-cta {
+  text-decoration: none;
+  color: #4d0aa4;
+  font-size: 2.2rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.mobile-cta:hover {
+  color: #ad77ff;
+}

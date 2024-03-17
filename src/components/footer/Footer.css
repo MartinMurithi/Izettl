@@ -1,0 +1,69 @@
+/* Footer.css */
+
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 0;
+  background-color: #f0f0f0;
+}
+
+.footer-section {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer-column {
+  width: 33%;
+  height: auto;
+}
+
+.footer-logo {
+  width: 100px;
+  height: auto;
+  mix-blend-mode: darken;
+}
+
+.footer-description {
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+#quick-links {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-nav li {
+  margin-bottom: 10px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-contact p {
+  margin: 5px 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.footer-social {
+  font-size: 24px;
+}
+
+.footer-social > * {
+  margin-right: 10px;
+}
