@@ -1,0 +1,49 @@
+.products-parent-section {
+  /* background-color: #f7f3fc; */
+  max-width: 100%;
+  margin-top: 100px;
+  padding: 50px 0;
+}
+
+.our-products-title {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 50px;
+}
+
+.products-section {
+  /* background-color: red; */
+  max-width: 90%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.product-image {
+  width: 100%; /* Ensure image fills the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.product-details {
+  padding: 20px;
+}
+
+.product-name {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.product-description {
+  margin-top: 10px;
+}

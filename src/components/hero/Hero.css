@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.hero-section-parent {
+  /* background-color: #4d0aa4; */
+  max-width: 100%;
+  height: 100svh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("./../../../public//assets//Izettl_home_banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.hero-section {
+  max-width: 50%;
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 70px;
+}
+
+.hero-text-intro {
+  color: #ad77ff;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.hero-company-name {
+  /* color: #4d0aaf; */
+}
+
+.hero-description {
+  max-width: 90%;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 40px;
+}
+
+.hero-cta-btns {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+}
+
+.hero-btn-learn-more,
+.hero-btn-contact-us {
+  padding: 13px 25px;
+  background-color: transparent;
+  border-style: none;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
