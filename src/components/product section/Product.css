@@ -1,49 +1,92 @@
 .products-parent-section {
-  /* background-color: #f7f3fc; */
+  background-color: #f7f3fc;
   max-width: 100%;
   margin-top: 100px;
   padding: 50px 0;
-}
-
-.our-products-title {
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 2rem;
-  line-height: 50px;
-}
-
-.products-section {
-  /* background-color: red; */
-  max-width: 90%;
-  margin: 30px auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.product-card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  width: 400px;
+.our-products-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  color: #4d0aa4;
+  line-height: 50px;
+  position: relative;
+  display: inline-block;
   margin: 0 auto;
 }
 
-.product-image {
-  width: 100%; /* Ensure image fills the container */
-  height: auto; /* Maintain aspect ratio */
+.our-products-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #4d0aa4;
+  position: absolute;
+  bottom: -7px;
+  left: 20%;
+  transform: translateX(50%);
 }
 
-.product-details {
-  padding: 20px;
+.products-section {
+  max-width: 90%;
+  margin: 80px auto 0 auto;
 }
 
-.product-name {
-  font-size: 20px;
-  margin-top: 0;
+.product-one,
+.product-two {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
 }
 
-.product-description {
-  margin-top: 10px;
+.product-two {
+  flex-direction: row-reverse;
+}
+
+.product-image,
+.product-description-parent {
+  flex: 1;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+}
+
+.product-name-one,
+.product-name-two {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.2rem;
+  line-height: 15px;
+
+}
+
+.product-name-one {
+  margin-left: 40px;
+}
+
+.product-description-one,
+.product-description-two {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 0.9rem;
+  line-height: 22px;
+}
+
+.product-description-one {
+  margin: 10px 0 0 40px;
+}
+
+.product-description-two {
+  margin: 10px 40px 0 0;
 }
