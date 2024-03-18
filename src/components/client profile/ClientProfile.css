@@ -1,0 +1,57 @@
+.client-profile {
+  width: 90%;
+  margin: 20px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.client-profile h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+/* .client-profile h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #ad77ff;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+} */
+
+.client-profile ul {
+  list-style-type: none;
+  padding: 0;
+  columns: 2 auto;
+}
+
+.client-profile li {
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.check-icon {
+  margin-right: 10px;
+  font-size: 19px;
+  width: 25px;
+  height: 25px;
+  background-color: #4d0aa4;
+  color: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+}

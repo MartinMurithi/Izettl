@@ -3,7 +3,7 @@ import "./Product.css";
 
 function Product() {
   return (
-    <div className="products-parent-section">
+    <div className="products-parent-section" id="products">
       <h2 className="our-products-title">Our Products</h2>
       {/* <p className="products-intro">
         At Izettl, we are committed to ensuring accessibility for all our

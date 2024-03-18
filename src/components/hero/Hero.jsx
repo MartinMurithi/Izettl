@@ -19,7 +19,7 @@ function Hero() {
           <Link to={"/about-us"} className="hero-btn-learn-more">
             Learn More
           </Link>
-          <Link to={"/contacts"} className="hero-btn-contact-us">
+          <Link to={"/#contact-us"} className="hero-btn-contact-us">
             Get In Touch
           </Link>
         </div>

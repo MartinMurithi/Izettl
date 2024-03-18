@@ -1,27 +1,36 @@
 import React from "react";
 import "./NavBar.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 function NavBar() {
   return (
     <nav>
       <div className="logo-img-parent">
-        <NavLink to={'/'}><img src="/assets/logo.png" alt="Izettl Logo" className="img-logo" /></NavLink>
-        
+        <NavLink to={"/"}>
+          <img src="/assets/logo.png" alt="Izettl Logo" className="img-logo" />
+        </NavLink>
       </div>
 
       <menu>
         <li className="menu-item">
-          <NavLink to={'/'}>Home</NavLink>
+          <NavLink to={"/"} className={"link-item"}>
+            Home
+          </NavLink>
         </li>
         <li className="menu-item">
-          <NavLink to={'/about-us'}>About Us</NavLink>
+          <NavLink to={"/about-us"} className={"link-item"}>
+            About Us
+          </NavLink>
         </li>
         <li className="menu-item">
-          <NavLink to={'/client-profile'}>Client Profile</NavLink>
+          <Link to={"/#products"} className={"link-item"}>
+            Our Products
+          </Link>
         </li>
         <li className="menu-item">
-          <NavLink to={'/contacts'}>Contact Us</NavLink>
+          <Link to={"/#contact-us"} className={"link-item"}>
+            Contact Us
+          </Link>
         </li>
       </menu>
     </nav>

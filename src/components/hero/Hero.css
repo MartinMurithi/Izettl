@@ -36,10 +36,6 @@
   font-style: normal;
 }
 
-.hero-company-name {
-  /* color: #4d0aaf; */
-}
-
 .hero-description {
   max-width: 90%;
   font-family: "Poppins", sans-serif;
@@ -60,11 +56,10 @@
 .hero-btn-learn-more,
 .hero-btn-contact-us {
   padding: 13px 25px;
-  background-color: transparent;
+  background-color: #4d0aa4;
   border-style: none;
   color: #ffffff;
-  border: 1px solid #ffffff;
-  cursor: pointer;
+  text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-style: normal;
 }

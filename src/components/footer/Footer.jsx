@@ -34,10 +34,10 @@ function Footer() {
               <Link to={"/about-us"}>About Us</Link>
             </li>
             <li>
-              <Link to={"client-profile"}>Client Profile</Link>
+              <Link to={"/#products"}>Our Products</Link>
             </li>
             <li>
-              <Link to={"contact-us"}>Contact Us</Link>
+              <Link to={"/#contact-us"}>Contact Us</Link>
             </li>
           </ul>
         </div>

@@ -50,6 +50,13 @@
   font-weight: 500;
 }
 
+.reach-us{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
 .mobile {
   display: flex;
   justify-content: center;
