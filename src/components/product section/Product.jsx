@@ -5,15 +5,7 @@ function Product() {
   return (
     <div className="products-parent-section" id="products">
       <h2 className="our-products-title">Our Products</h2>
-      {/* <p className="products-intro">
-        At Izettl, we are committed to ensuring accessibility for all our
-        clients, regardless of their location or financial status. Our services
-        are available through mobile money platforms, allowing clients to easily
-        access funds and make repayments using their mobile phones.
-        Additionally, our digital platform is designed to be user-friendly and
-        interoperable, facilitating service delivery for marginalized
-        individuals and communities.
-      </p> */}
+      
       <div className="products-section">
         {/* Product one */}
         <div className="product-one">

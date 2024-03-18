@@ -44,9 +44,13 @@ function Footer() {
         <div className="footer-column">
           <div className="footer-contact">
             <p>Contact us:</p>
-            <a href="mailto:info@example.com">Email: info@example.com</a>
+            <a href="mailto:info@example.com" className="footer-link">
+              Email: info@example.com
+            </a>
             <br />
-            <a type="tel" href="+2547123456789">Phone: +1234567890</a>
+            <a type="tel" href="+2547123456789" className="footer-link">
+              Phone: +1234567890
+            </a>
           </div>
           <div className="footer-social">
             <FaFacebook className="social-icon" />

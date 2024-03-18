@@ -57,3 +57,27 @@
   line-height: 30px;
   margin: 15px 0 50px 0;
 }
+
+@media only screen and (max-width: 900px) {
+  .challenge-section,
+  .impact-section {
+    text-align: center;
+    width: 100%;
+  }
+
+  .challenge-title,
+  .impact-title {
+    font-size: 1.5rem;
+  }
+
+  .challenge-text,
+  .impact-text {
+    font-size: 0.9rem;
+    line-height: 28px;
+  }
+
+  .challenge-text,
+  .impact-text{
+    margin: 15px 0 10px 0;
+  }
+}

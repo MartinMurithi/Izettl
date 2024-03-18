@@ -50,7 +50,7 @@
   font-weight: 500;
 }
 
-.reach-us{
+.reach-us {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,4 +82,40 @@
 
 .mobile-cta:hover {
   color: #ad77ff;
+}
+
+@media only screen and (max-width: 900px) {
+  .get-in-touch-parent-section {
+    margin: 50px 0;
+  }
+
+
+  .get-in-touch-title {
+    font-size: 2.3rem;
+  }
+
+  .get-in-touch-title::after {
+    left: 17%;
+  }
+
+  .get-in-touch-cta {
+    font-size: 1.3rem;
+  }
+
+  .reach-us {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .mobile {
+    margin-top: 20px;
+  }
+
+  .phone-icon {
+    font-size: 2rem;
+  }
+
+  .mobile-cta {
+    font-size: 1.8rem;
+  }
 }

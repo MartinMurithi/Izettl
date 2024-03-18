@@ -13,11 +13,11 @@
 }
 
 .about-us-image {
-  width: 100%;
+  width: 90%;
 }
 
 .about-content {
-  max-width: 48%;
+  width: 48%;
   margin: 0 auto;
 }
 
@@ -67,4 +67,46 @@
 .read-more-btn:hover {
   background-color: #4d0aa4;
   color: #ffffff;
+}
+
+
+@media only screen and (max-width:1000px){
+
+.about-section {
+  width: 90%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 50px 0;
+}
+
+.about-us-image {
+  width: 100%;
+}
+
+.about-content {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 1.9rem;
+  line-height: 45px;
+}
+
+.about-title::after {
+  left: 50%;
+}
+
+.about-description {
+  font-size: .9rem;
+  line-height: 25px;
+}
+
+.read-more-btn {
+  padding: 8px 23px;
+}
+
 }

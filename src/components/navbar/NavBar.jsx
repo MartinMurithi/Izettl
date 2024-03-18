@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./NavBar.css";
 import { NavLink, Link } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
+import { MdOutlineClose } from "react-icons/md";
+import "./NavBar.css";
+import MobileNav from "./MobileNav";
 
 function NavBar() {
+  const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(false);
   return (
     <nav>
       <div className="logo-img-parent">
@@ -33,6 +38,18 @@ function NavBar() {
           </Link>
         </li>
       </menu>
+
+       {isMobileMenuVisible ? (
+          <div className="xIcon" onClick={() => setIsMobileMenuVisible(false)}>
+            <MdOutlineClose />
+          </div>
+        ) : (
+          <FaBars
+            className="barsIcon"
+            onClick={() => setIsMobileMenuVisible(true)}
+          />
+        )}
+      {isMobileMenuVisible && <MobileNav />}
     </nav>
   );
 }

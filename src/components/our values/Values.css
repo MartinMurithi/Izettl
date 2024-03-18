@@ -54,7 +54,6 @@
 }
 
 .value-title {
-  color: var(--black);
   font-family: sans-serif;
   font-size: 1.2rem;
   line-height: 25px;
@@ -62,8 +61,21 @@
 }
 
 .value-text {
-  color: var(--lightGray);
   font-size: 0.9rem;
   line-height: 27px;
   font-weight: 400;
+}
+
+@media only screen and (max-width: 900px) {
+  .our-values-title {
+    font-size: 1.5rem;
+  }
+
+  .values-parent-list {
+    grid-template-columns: 1fr;
+  }
+
+  .value-title {
+    font-size: 1.1rem;
+  }
 }
