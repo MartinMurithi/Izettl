@@ -9,7 +9,7 @@ function AboutSection() {
         <div className="about-section">
           <div className="about-us-image-parent">
             <img
-              src="/assets/about-image.jpg"
+              src="/assets/About-Us.jpeg"
               alt="About"
               loading="lazy"
               className="about-us-image"

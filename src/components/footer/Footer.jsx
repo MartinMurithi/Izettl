@@ -1,6 +1,6 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { FaPhoneVolume, FaRegEnvelope, FaLinkedin } from "react-icons/fa6";
 import "./Footer.css";
 
 function Footer() {
@@ -9,56 +9,97 @@ function Footer() {
       <div className="footer-section">
         <div className="footer-column">
           <Link to={"/"}>
-            {" "}
             <img
               src="/assets/logo.png"
-              alt="Company Logo"
+              alt="Izettl Logo"
               className="footer-logo"
             />
           </Link>
-
-          <p className="footer-description">
+          <p className="footer-company-description">
             Our mission is to uplift smallholder farmers and micro-enterprises
             by providing accessible and affordable financial solutions tailored
-            to their needs. Through innovative digital banking services and a
-            commitment to customer success, we strive to unlock prosperity and
-            drive sustainable growth.
+            to their needs.
           </p>
         </div>
-        <div className="footer-column" id="quick-links">
-          <ul className="footer-nav">
-            <li>
-              <Link to={"/"}>Home</Link>
+
+        <div className="footer-column">
+          <h5 className="quick-links-title">Quick Links</h5>
+          <ul className="footer-nav-links">
+            <li className="quick-link">
+              <Link to={"/"} className="footer-link">
+                Home
+              </Link>
             </li>
-            <li>
-              <Link to={"/about-us"}>About Us</Link>
+
+            <li className="quick-link">
+              <Link to={"/about-us"} className="footer-link">
+                About Us
+              </Link>
             </li>
-            <li>
-              <Link to={"/#products"}>Our Products</Link>
+
+            <li className="quick-link">
+              <Link to={"/#products"} className="footer-link">
+                Products
+              </Link>
             </li>
-            <li>
-              <Link to={"/#contact-us"}>Contact Us</Link>
+
+            <li className="quick-link">
+              <Link to={"/#contact-us"} className="footer-link">
+                Contact Us
+              </Link>
             </li>
           </ul>
         </div>
         <div className="footer-column">
-          <div className="footer-contact">
-            <p>Contact us:</p>
-            <a href="mailto:info@example.com" className="footer-link">
-              Email: info@example.com
-            </a>
-            <br />
-            <a type="tel" href="+2547123456789" className="footer-link">
-              Phone: +1234567890
-            </a>
-          </div>
-          <div className="footer-social">
-            <FaFacebook className="social-icon" />
-            <FaTwitter className="social-icon" />
-            <FaInstagram className="social-icon" />
-            <FaLinkedin className="social-icon" />
-          </div>
+          <h5 className="contacts-title">Contact Us</h5>
+          <ul className="footer-contacts">
+            <li className="footer-contact">
+              <a
+                href="tel:+254741214387"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-link"
+              >
+                <FaPhoneVolume /> 0741214387
+              </a>
+            </li>
+            <li className="footer-contact">
+              <a
+                href="tel:+254781214387"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-link"
+              >
+                <FaPhoneVolume /> 0781214387
+              </a>
+            </li>
+
+            <li className="footer-contact">
+              <a
+                href="mailto:contact@izettl.co.ke"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-link"
+              >
+                <FaRegEnvelope /> contact@izettl.co.ke
+              </a>
+            </li>
+
+            <li className="footer-contact">
+              <a
+                href="https://www.linkedin.com/posts/arnold-namusonge-aihrm-fkim-b9735538_customercentricity-bringingpossibilitiestolife-activity-7029994011037741056-LN2N?utm_source=share&utm_medium=member_android"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-link"
+              >
+                <FaLinkedin /> LinkedIn
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
+      <div className="copy-right-parent">
+        <p className="copy-right">Copyright © 2024 | Designed by Techcrast</p>
       </div>
     </footer>
   );

@@ -11,7 +11,7 @@ function Hero() {
           Welcome to <span className="hero-company-name">Izettl</span>
         </h1>
         <h2 className="hero-description">
-          Empowering smallholder farmers (SHFs) and Micro Small and Medium
+          Empowering small holder farmers (SHFs) and Micro Small and Medium
           Enterprises (MSMEs) growth
         </h2>
 

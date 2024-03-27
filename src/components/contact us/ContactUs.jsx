@@ -1,5 +1,5 @@
 import React from "react";
-import { FaPhoneVolume, FaRegEnvelope } from "react-icons/fa6";
+import { FaPhoneVolume, FaRegEnvelope, FaLinkedinIn } from "react-icons/fa6";
 import "./ContactUs.css";
 
 function ContactUs() {
@@ -16,15 +16,22 @@ function ContactUs() {
         <div className="reach-us">
           <div className="mobile">
             <FaPhoneVolume className="phone-icon" />
-            <a href="tel:+254712345678" className="mobile-cta">
-              (254) 712 345678
+            <a href="tel:+254741214387" className="mobile-cta">
+              0741214387
+            </a>
+          </div>
+
+          <div className="mobile">
+            <FaPhoneVolume className="phone-icon" />
+            <a href="tel:+254781214387" className="mobile-cta">
+              0781214387
             </a>
           </div>
 
           <div className="mobile">
             <FaRegEnvelope className="phone-icon" />
-            <a href="mailto:info@example.com" className="mobile-cta">
-              info@Izettl.com
+            <a href="" className="mobile-cta">
+              contact@izettl.com
             </a>
           </div>
         </div>

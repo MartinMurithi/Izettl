@@ -3,8 +3,7 @@
   margin: 60px auto 0 auto;
 }
 
-.challenge-section,
-.impact-section {
+.challenge-section {
   text-align: center;
   width: 70%;
   margin: 40px auto 0 auto;
@@ -51,11 +50,65 @@
 
 .challenge-text,
 .impact-text {
+  width: 100%;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 1rem;
   line-height: 30px;
-  margin: 15px 0 50px 0;
+  margin: 15px 0 30px 0;
+}
+
+.impact-section {
+  width: 90%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.impact-content {
+  margin: 0px auto 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 50px 0;
+}
+
+.impact-image {
+  width: 100%;
+}
+
+.impact-img {
+  width: 100%;
+  flex: 1;
+  object-fit: cover;
+}
+
+.impact-text-parent {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.count-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.count {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 1.8rem;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.count-title {
+  font-size: .9rem;
 }
 
 @media only screen and (max-width: 900px) {
@@ -76,8 +129,40 @@
     line-height: 28px;
   }
 
-  .challenge-text,
+  .challenge-text {
+    margin: 10px 0 10px 0;
+  }
+
   .impact-text{
-    margin: 15px 0 10px 0;
+    margin-top: -20px;
+  }
+
+  .impact-section {
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  .impact-content {
+    margin: 40px auto 100px auto;
+    flex-direction: column;
+  }
+
+  .impact-image {
+    width: 100%;
+    margin-top: -40px;
+  }
+
+  .count-data {
+    flex-direction: column;
+  }
+
+  .count {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+
+  .count-title {
+    font-size: 1rem;
   }
 }
